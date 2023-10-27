@@ -1,0 +1,167 @@
+/*Index*/
+nav{
+display: flex;
+flex-flow: row;
+justify-content: space-between;
+background-color: #4B4453;
+padding: 20px
+    
+}
+
+.icone{
+    width: 90px;
+}
+
+.titulo{
+    align-items: center;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    font-size: 18px;
+    color: #eae5f1;
+}
+
+.menu a{
+  float: left;
+  color: #eae5f1;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: 'Lucida Sans';
+  margin-top: 40px;
+}
+
+.menu{
+    float: right;
+}
+
+.foto{
+    border-radius: 4%;
+    width: 200px;
+}
+
+.sobre_mim{
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    color: #271936;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans';
+}
+
+.texto_sobre{
+    margin: 50px;
+    font-family: 'Lucida Sans';
+    
+}
+
+#sobre{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0A8B9;
+    padding: 10px;
+}
+
+#meu_video{
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    color: #271936;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans';
+}
+
+#video{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.pitch{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #271936;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans';
+}
+
+.redes_sociais img{
+    width: 30px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.redes_sociais{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.by{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img{ width: 200px;}
+
+/*Contato*/
+#contato{
+    font-family: 'Lucida sans';
+    margin: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.campos-form{
+    width: 100%;
+    margin: 20px;
+    border: 2px #271936;
+}
+
+.mensagem{
+    width: 100%;
+    margin: 20px;
+}
+
+button{
+    width: 30%;
+    background-color: #B0A8B9;
+    color: black;
+    font-weight: bold;
+    border: none;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+}
+
+#formulario_buscacep{
+    margin: 20px;
+}
+
+h3{
+    display: flex;
+    flex-flow: row;
+    align-items:center;
+    justify-content: center;
+}
