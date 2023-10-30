@@ -133,6 +133,8 @@ padding: 20px
     align-items: stretch;
 }
 .campos-form{
+    display: flex;
+    flex-flow: column;
     width: 100%;
     margin: 20px;
     border: 2px #271936;
@@ -164,4 +166,20 @@ h3{
     flex-flow: row;
     align-items:center;
     justify-content: center;
+}
+
+#txtNome{
+    font-size: 12px;
+}
+
+#txtEmail{
+    font-size: 12px;
+}
+
+#txtMensagem{
+    font-size: 12px;
+}
+
+#txtCep{
+    font-size: 12px;
 }
